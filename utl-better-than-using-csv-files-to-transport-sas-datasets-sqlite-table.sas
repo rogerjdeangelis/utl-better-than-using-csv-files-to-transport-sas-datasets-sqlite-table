@@ -148,6 +148,13 @@ fn_tosas9x(
 
 proc print data=sd1.want;
 run;
+> print(want)
+     name sex age
+1   Alice   F  13
+2 Barbara   F  13
+3   Carol   F  13
+4   Henry   M  14
+5   James   M  14
 
 
 /*  _               _ _ _              _ _                                                 _
